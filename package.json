@@ -4,7 +4,8 @@
   "description": "simple GraphQL server",
   "main": "server.js",
   "scripts": {
-    "dev:server": "nodemon server.js"
+    "dev:server": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "David Agaybi",
   "license": "MIT",
@@ -13,5 +14,13 @@
     "express-graphql": "^0.6.12",
     "graphql": "^14.0.2",
     "nodemon": "^1.18.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgniteStudio/GraphQL.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IgniteStudio/GraphQL/issues"
+  },
+  "homepage": "https://github.com/IgniteStudio/GraphQL#readme"
 }
